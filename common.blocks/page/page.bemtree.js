@@ -1,13 +1,16 @@
 block('page').content()(function() {
     return [
         {
-            block: 'header'
+            block: 'header',
+            tag: 'header'
         },
         {
-            block: 'body'
+            block: 'body',
+            tag: 'main'
         },
         {
-            block: 'footer'
+            block: 'footer',
+            tag: 'footer'
         }
     ];
 });
